@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color:white;
+    padding-top: 70px;
+}
+.font-yanone{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.text-big{
+    font-size: 7rem;
+
+}
+h1{
+    font-size: 1.5rem;
+}
+
+.section-one{
+    height: 100vh;
+}
+
+.section-two{
+    height: 50vh;
+}
+
+.section-third{
+    height: 85vh;
+}
+.center{
+    height: 75vh;
+    position: relative;
+    top: 50%;
+    margin-top: 150px;
+}
+
+.nav{
+    height: 10vh;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: white;
+    margin: 2rem;
+}
