@@ -63,10 +63,10 @@
         </div>
         </section>
         <!--Sobre mí-->
-        <section  class="section-two container d-inline">
-                <div id="sobreMi" class="row align-items-center">
+        <section id="sobreMi" class="section-two d-inline" >
+                <div  class="row align-items-center">
                   <div class="col-12 col-md-6 col-lg-5 text-center"><img class="circle" src="images/angiemonroy.jpg"></div>
-                  <div class="col-12 col-md-6 col-lg-7"><p class="yellow-text text-center">
+                  <div class="col-12 col-md-6 col-lg-7 pr-5"><p class="yellow-text text-center">
                         Front End Developer y licenciada en Diseño y Comunicación Visual. Amante de la fotografía y curiosa por naturaleza.
                         Profesional que busca dar soluciones tecnológicas a los problemas cotidianos. Aprender cada día algo nuevo.
                         </p>
@@ -74,62 +74,92 @@
             </div>
         </section>
         <!--Proyectos-->
-        <section id="proyectos" class="section-one text-center my-5 d-inline">
-        <h2 class="h1-responsive font-weight-bold my-5">Proyectos</h2>
-        <p class="grey-text w-responsive mx-auto mb-5">Conoce algunos de mis proyectos en los que he colaborado.</p>
-        <div class="row text-center">
-          <div class="col-lg-4 col-md-12 mb-lg-0 mb-4">
-            <div class="view overlay rounded z-depth-1">
-              <img src="images/Deafriend.jpg" class="img-fluid" alt="Sample project image">
+        <section id="proyectos" class="my-5 container">
+        <h2 class="h1-responsive font-weight-bold text-center my-5">Proyectos</h2>
+        <p class="text-center w-responsive mx-auto mb-5">Conoce algunos de mis proyectos en los que he colaborado.</p>
+        
+        <!-- Proyecto 1 -->
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+              <img class="img-fluid" src="./images/Deafriend.jpg" alt="Imagen red social Deafriend">
               <a>
                 <div class="mask rgba-white-slight"></div>
               </a>
-            </div>
-            <div class="card-body pb-0">
-                <h4 class="font-weight-bold yellow-text my-3">Deafriend</h4>
-                <p class="grey-text">Red Social, se utilizó la librería de REACT para su producción.
-                </p>
-                <a class="btn btn-outline-white waves-effect btn-sm" href="https://github.com/AngieMonroe/cdmx-social-network-frameworks/" target="_blank"><i class="fab fa-github"></i> Código</a>
-                <a class="btn btn-outline-white waves-effect btn-sm" href="https://angiemonroe.github.io/cdmx-social-network-frameworks/" target="_blank"><i class="fa fa-clone left"></i> Ver</a>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 mb-md-0 mb-4">
-            <!--Featured image-->
-            <div class="view overlay rounded z-depth-1">
-              <img src="images/LabCar.jpg" class="img-fluid" alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body pb-0">
-              <h4 class="font-weight-bold yellow-text my-3">LabCar</h4>
-              <p class="grey-text">Aplicación móvil, para su realización se consume el API de Google.
-              </p>
-              <a class="btn btn-outline-white waves-effect btn-sm" href="https://github.com/AngieMonroe/labcar" target="_blank"><i class="fab fa-github"></i> Código</a>
-              <a class="btn btn-outline-white waves-effect btn-sm" href="https://angiemonroe.github.io/labcar/index.html" target="_blank"><i class="fa fa-clone left"></i> Ver</a>
-            </div>
+          <div class="col-lg-7">
+            <h6 class="font-weight-bold mb-3 light-blue-text"><i class="fa fa-cutlery pr-2"></i>Red Social</h6>
+            <!-- Título -->
+            <h3 class="font-weight-bold mb-3 yellow-text"><strong>Deafriend</strong></h3>
+            <!-- Descripción -->
+            <p>Red Social, se utilizó la librería de REACT para su producción.</p>
+            <!-- Fecha -->
+            <p>por <a><strong>Angie Monroy</strong></a>, 2018</p>
+            <!-- Botones -->
+            <a class="btn btn-info btn-md mb-lg-0 mb-4" href="https://github.com/AngieMonroe/cdmx-social-network-frameworks/" target="_blank"><i class="fab fa-github"></i> Código</a>
+            <a class="btn btn-info btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/cdmx-social-network-frameworks/" target="_blank"><i class="far fa-eye left"></i> Ver</a>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="view overlay rounded z-depth-1">
-                <img src="images/BlogSeries.jpg" class="img-fluid" alt="Sample project image">
-              <a>
-                <div class="mask rgba-white-slight"></div>
-              </a>
-            </div>
-            <div class="card-body pb-0">
-                <h4 class="font-weight-bold yellow-text my-3">The Best Series</h4>
-                <p class="grey-text">Blog, se consume el API OMDb se maqueta mediante Bootstrap.
-                </p>
-                <a class="btn btn-outline-white waves-effect btn-sm" href="https://github.com/AngieMonroe/Blog-Series" target="_blank"><i class="fab fa-github"></i> Código</a>
-                <a class="btn btn-outline-white waves-effect btn-sm" href="https://angiemonroe.github.io/Blog-Series/src/views/Index.html" target="_blank"><i class="fa fa-clone left"></i> Ver</a>
-            </div>
-          </div>      
         </div>
-        </section>
+
+        <hr class="my-5">
+        
+        <!-- Proyecto 2 -->
+        <div class="row">
+          <div class="col-lg-7">
+              <h6 class="font-weight-bold mb-3 amber-text"><i class="fa fa-image pr-2"></i>WebApp</h6>
+            </a>
+            <!-- Título -->
+            <h3 class="font-weight-bold mb-3 yellow-text"><strong>LabCar</strong></h3>
+            <!-- Descripción -->
+            <p>Wep App, para su realización se consume el API de Google</p>
+            <!-- Fecha -->
+            <p>por <a><strong>Angie Monroy</strong></a>, 2018</p>
+            <!-- Botones -->
+            <a class="btn btn-amber btn-md mb-lg-0 mb-4" href="https://github.com/AngieMonroe/labcar" target="_blank"><i class="fab fa-github"></i> Código</a>
+            <a class="btn btn-amber btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/labcar/index.html" target="_blank"><i class="far fa-eye left"></i> Ver</a>
+          </div>
+          <div class="col-lg-5">
+            <div class="view overlay rounded z-depth-2">
+              <img class="img-fluid" src="./images/LabCar.jpg" alt="Imagen LabCar">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr class="my-5">
+
+        <!-- Proyecto 3 -->
+        <div class="row">
+          <div class="col-lg-5">
+            <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
+              <img class="img-fluid" src="./images/BlogSeries.jpg" alt="Imagen blog series">
+              <a>
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <h6 class="font-weight-bold mb-3 grey-text"><i class="fa fa-cutlery pr-2"></i>Blog</h6>
+            <!-- Título -->
+            <h3 class="font-weight-bold mb-3 yellow-text"><strong>Blog Series</strong></h3>
+            <!-- Descripción -->
+            <p>Red Social, se utilizó la librería de REACT para su producción.</p>
+            <!-- Fecha -->
+            <p>por <a><strong>Angie Monroy</strong></a>, 2018</p>
+            <!-- Botones -->
+            <a class="btn btn-grey btn-md mb-lg-0 mb-4" href="https://github.com/AngieMonroe/cdmx-social-network-frameworks/" target="_blank"><i class="fab fa-github"></i> Código</a>
+            <a class="btn btn-grey btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/cdmx-social-network-frameworks/" target="_blank"><i class="far fa-eye left"></i> Ver</a>
+          </div>
+        </div>
+        <hr class="my-5">
+      </section>
+
         <!--Habilidades-->
-        <section  class="container section-third mt-5">
+        <section  id="habilidades" class="container section-third mt-5">
             <div class="row justify-content-center">
-              <h2 id="habilidades" class="h1-responsive font-weight-bold my-5">Habilidades</h2>
+              <h2  class="h1-responsive font-weight-bold my-5">Habilidades</h2>
             </div>
               <div class="row">
                 <div class="col-6">
@@ -189,11 +219,11 @@
     </div>
         <div class="footer-copyright text-center py-3">
                 <i class="fas fa-pencil-alt">&nbsp;&nbsp;&nbsp;</i>
-                <i class="fas fa-plus">&nbsp;&nbsp;&nbsp;</i>
+                <i class="fas fa-plus yellow-text">&nbsp;&nbsp;&nbsp;</i>
                 <i class="fas fa-laptop">&nbsp;&nbsp;&nbsp;</i>
-                <i class="fas fa-plus">&nbsp;&nbsp;&nbsp;</i>
+                <i class="fas fa-plus yellow-text">&nbsp;&nbsp;&nbsp;</i>
                 <i class="fas fa-music">&nbsp;&nbsp;&nbsp;</i>
-                <i class="fas fa-equals">&nbsp;&nbsp;&nbsp;</i>
+                <i class="fas fa-equals yellow-text">&nbsp;&nbsp;&nbsp;</i>
                 <i class="fas fa-code"></i>
         </div>
       </footer>
