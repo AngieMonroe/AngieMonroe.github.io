@@ -1,5 +1,5 @@
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: black;
     color:white;
     padding-top: 100px;
@@ -7,7 +7,9 @@ body{
 .font-yanone{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-
+.font-ligth{
+    font-family: 'Roboto', 'Ligth';
+}
 .text-big{
     font-size: 7rem;
 
@@ -25,7 +27,7 @@ h1{
 }
 
 .section-third{
-    height: 85vh;
+    height: 100vh;
 }
 .center{
     height: 75vh;
@@ -51,4 +53,13 @@ h1{
 .wrap {
     word-wrap: break-word;
     color: white,
+}
+
+.text-sm {
+    text-size-adjust: 10px;
+}
+
+.display{
+    display: inline-block;
+    margin: 2rem;
 }
