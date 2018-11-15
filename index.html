@@ -16,7 +16,7 @@
 <body>
 
     <!--Navbar-->
-      <nav class="navbar navbar-expand-lg navbar-dark elegant-color font-montserrat fixed-top">
+      <nav class="navbar navbar-expand-sm navbar-dark elegant-color font-montserrat scrolling-navbar fixed-top ">
         <a class="navbar-brand font-yanone" href="#">ANGIE <span class="grey-text">MONROY</span></a>
       
         <!-- Collapse button -->
@@ -27,8 +27,7 @@
       
         <!-- Collapsible content -->
         <div class="collapse navbar-collapse" id="basicExampleNav">
-      
-          <!-- Links -->
+           <!-- Links -->
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#sobreMi">Sobre mí</a>
@@ -48,11 +47,13 @@
           </ul>
         </div>    
       </nav>
+      <div class="scroll z-depth-1 mt-4" data-spy="scroll" data-target="#navbar-example1" data-offset="0">
       <!--/.Navbar-->
-
+      <section class="container-fluid">
+ 
       <!--Introducción-->
-      <div class="scrollspy-example z-depth-1 mt-4" data-spy="scroll" data-target="#navbar-example1" data-offset="0">
-        <section class="section-one container center">
+
+        <section class="section-one center">
             <div class="row">
             <div class="col-12 text-center">
                 <p class="font-yanone white-text text-big">ANGIE <span class="grey-text">MONROY</span></p>
@@ -60,14 +61,13 @@
             </div>
         </div>
         </section>
-
         <!--Sobre mí-->
-        <section id="sobreMi" class="container">
-          <div  class="row align-items-center">
-          <div class="col-12 col-md-6 col-lg-5"><img class="circle" src="images/angiemonroy.jpg"></div>
-          <blockquote  class="col-12 col-md-6 col-lg-7 yellow-text text-center">
+        <section id="sobreMi">
+          <div  class="row">
+          <div class="col-12 col-lg-4 text-center"><img class="circle" src="images/angiemonroy.jpg"></div>
+          <blockquote  class="col-12 col-lg-8 yellow-text text-center">
             <p class="display-3">¡Hola!</p>
-            <p>Soy Front End Developer y licenciada en Diseño y Comunicación Visual. Amante de la fotografía y curiosa por naturaleza.
+            <p class="font-size p-1">Soy Front End Developer y licenciada en Diseño y Comunicación Visual. Amante de la fotografía y curiosa por naturaleza.
                Busco dar soluciones tecnológicas a los problemas cotidianos. Mi principal meta es aprender cada día algo nuevo.
             </p>
           </blockquote>                
@@ -75,26 +75,26 @@
         </section>
 
         <!--Habilidades-->
-        <section  id="habilidades" class="container">
+        <section  id="habilidades" >
           <div class="row justify-content-center">
             <h2  class="h1-responsive font-weight-bold my-5">Habilidades</h2>
           </div>
-            <div class="row">
-              <div class="display col-6 col-md-3 "><i class="fab fa-js fa-3x m-2"></i><p class="">Javascript</p></div>
-              <div class="display col-6 col-md-3 "><i class="fab fa-react fa-3x m-2"></i><p>React</p> </div>
-              <div class="display col-6 col-md-3 "><i class="fab fa-github fa-3x m-2"></i><p>GitHub</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-database fa-3x m-2"></i><p>Firebase</p></div>
+            <div class="row text-center mb-3">
+              <div class="display col-6 col-md-3 "><i class="fab fa-js fa-4x mb-2"></i><p class="">Javascript</p></div>
+              <div class="display col-6 col-md-3 "><i class="fab fa-react fa-4x mb-2"></i><p>React</p> </div>
+              <div class="display col-6 col-md-3 "><i class="fab fa-github fa-4x mb-2"></i><p>GitHub</p></div>
+              <div class="display col-6 col-md-3 "><i class="fa fa-database fa-4x mb-2"></i><p>Firebase</p></div>
             </div>
-            <div class="row">
-              <div class="display col-6 col-md-3 "><i class="fa fa-cogs fa-3x m-2"></i><p>Metodologías Ágiles</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-plus-circle fa-3x m-2"></i><p>Autoaprendizaje</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-bug fa-3x m-2"></i><p>Perseverancia</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-universal-access fa-3x m-2"></i><p>Adaptación</p></div>
+            <div class="row text-center mb-5">
+              <div class="display col-6 col-md-3 "><i class="fa fa-cogs fa-4x mb-2"></i><p>Metodologías Ágiles</p></div>
+              <div class="display col-6 col-md-3 "><i class="fa fa-bug fa-4x mb-2"></i><p>Perseverancia</p></div>
+              <div class="display col-6 col-md-3 "><i class="fa fa-universal-access fa-4x mb-2"></i><p>Adaptación</p></div>
+              <div class="display col-6 col-md-3 "><i class="fa fa-plus-circle fa-4x mb-2"></i><p>Autoaprendizaje</p></div>
           </div>
         </section>
 
         <!--Proyectos-->
-        <section id="proyectos" class="my-5 container">
+        <section id="proyectos">
         <h2 class="h1-responsive font-weight-bold text-center my-5">Proyectos</h2>        
         
         <!-- Proyecto 1 -->
@@ -142,7 +142,7 @@
                 <a class="btn btn-info btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/cdmx-social-network-frameworks/" target="_blank"><i class="far fa-eye left"></i> Ver</a>
               </div>
 
-          <div class="col-lg-5 order-md-first">
+          <div class="col-lg-5 order-lg-first">
             <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4 ">
               <img class="img-fluid" src="./images/Deafriend.jpg" alt="Imagen red social Deafriend">
               <a>
@@ -198,7 +198,7 @@
             <a class="btn btn-grey btn-md mb-lg-0 mb-4" href="https://github.com/AngieMonroe/Blog-Series" target="_blank"><i class="fab fa-github"></i> Código</a>
             <a class="btn btn-grey btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/Blog-Series/src/views/Index.html" target="_blank"><i class="far fa-eye left"></i> Ver</a>
           </div>
-        <div class="col-lg-5 order-md-first">
+        <div class="col-lg-5 order-lg-first">
           <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
           <img class="img-fluid" src="./images/BlogSeries.jpg" alt="Imagen blog series">
           <a><div class="mask rgba-white-slight"></div></a>
@@ -215,6 +215,7 @@
             Descargar Archivo
             </a>
         </section>
+      </section>
 
       <!-- Footer -->
       <footer id="contacto"class="page-footer font-small elegant-color darken-3">
