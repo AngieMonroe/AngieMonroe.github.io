@@ -5,18 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>AngieMonroy</title>
-        <link href="" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Yanone+Kaffeesatz:400,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-        <link rel="stylesheet" href="src/mdb.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400|Yanone+Kaffeesatz:400,700|Unica+One" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/css/mdb.min.css" rel="stylesheet">
         <link rel="stylesheet" href="src/style.css">
+        <link rel="stylesheet" href="src/mdb.min.css">
+
 </head>
-<body>
+<body data-spy="scroll" data-target="#navbar-example1" data-offset="0">
 
     <!--Navbar-->
-      <nav class="navbar navbar-expand-sm navbar-dark elegant-color font-montserrat scrolling-navbar fixed-top ">
+      <nav class="navbar navbar-expand-sm navbar-dark special-color-dark darken-3  scrolling-navbar fixed-top " id="navbar-example1">
         <a class="navbar-brand font-yanone" href="#">ANGIE <span class="grey-text">MONROY</span></a>
       
         <!-- Collapse button -->
@@ -28,83 +31,86 @@
         <!-- Collapsible content -->
         <div class="collapse navbar-collapse" id="basicExampleNav">
            <!-- Links -->
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#sobreMi">Sobre mí</a>
+          <ul class="navbar-nav ml-auto nav-pills">
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#aboutMe">Sobre mí</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#skills">Habilidades</a>
+            </li>
+            <li class="nav-item mr-2">
+              <a class="nav-link" href="#proyects">Proyectos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#habilidades">Habilidades</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#cv">CV</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#contacto">Contáctame</a>
+                <a class="nav-link" href="#contact">Contáctame</a>
             </li>      
           </ul>
         </div>    
       </nav>
-      <div class="scroll z-depth-1 mt-4" data-spy="scroll" data-target="#navbar-example1" data-offset="0">
-      <!--/.Navbar-->
-      <section class="container">
- 
-      <!--Introducción-->
+      <!--/ Navbar-->
+  
+      <!--Inicio -->
 
-        <section class="section-one center container-fluid">
+        <section class="section-one container-fluid">
             <div class="row">
             <div class="col-12 text-center">
-                <p class="font-yanone white-text text-big">ANGIE <span class="grey-text">MONROY</span></p>
-                <H1 class="grey-text animated infinite pulse delay-1s"><span class="yellow-text">&#60; </span>Front-End Developer <span class="yellow-text">&#62; </span></H1>
+                <p class="font-yanone white-text text-big-one">ANGIE <span class="grey-text">MONROY</span></p>
+                <H1 class="grey-text animated infinite pulse delay-1s"><span class="yellowtxt">&#60; </span>Front-End Developer <span class="yellow-text">&#62; </span></H1>
             </div>
-        </div>
-        </section>
-        <!--Sobre mí-->
-        <section id="sobreMi" >
-          <div  class="row text-center">
-          <div class="col-12 col-lg-4 "><img class="circle" src="images/angiemonroy.jpg"></div>
-          <blockquote  class="col-12 col-lg-8 yellow-text text-center">
-            <p class="display-3">¡Hola!</p>
+            </div>
+        </section> 
+
+
+
+        <!--Sobre mí -->
+        <section id="aboutMe" class="section-two">
+          <div class="container padding-top ">
+          <div  class="row text-center ">
+          <div class="col-12 col-lg-4 center"><img class="img-fluid circle slideanim" src="images/angiemonroy.jpg"></div>
+          <blockquote  class="col-12 col-lg-8 yellowtxt text-center slideanim">
+            <p class="text-2 font-uica">¡Hola!</p>
             <p class="font-size p-1"> 
-                Soy Front End Developer y licenciada en Diseño y Comunicación Visual. Amante de la fotografía y curiosa por naturaleza.
+                Soy Front End Developer y licenciada en Diseño y Comunicación Visual. Amante de la fotografía, apasionada por el código y curiosa por naturaleza.
                 Comprometida a cumplir los retos que me propongan y aprender cosas nuevas. Me gusta ser práctica al momento de buscar una solución sin descuidar la calidad de la misma.
             </p>
           </blockquote>                
           </div>
+        </div>
         </section>
 
-        <!--Habilidades-->
-        <section  id="habilidades" >
+        <!--Habilidades -->
+        <section  id="skills" class="section-three" >
+          <div class="container">
           <div class="row justify-content-center">
-            <h2  class="h1-responsive font-weight-bold my-5">Habilidades</h2>
+            <h2  class="my-5 text-big font-uica">Habilidades</h2>
           </div>
-            <div class="row text-center mb-3">
-              <div class="display col-6 col-md-3 "><i class="fab fa-js fa-4x mb-2"></i><p class="">Javascript</p></div>
-              <div class="display col-6 col-md-3 "><i class="fab fa-react fa-4x mb-2"></i><p>React</p> </div>
-              <div class="display col-6 col-md-3 "><i class="fab fa-github fa-4x mb-2"></i><p>GitHub</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-database fa-4x mb-2"></i><p>Firebase</p></div>
+            <div class="row text-center margin-bottom slideanim">
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fab fa-js fa-6x mb-2"></i><p class="md-h3-responsive">Javascript</p></div>
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fab fa-react fa-6x mb-2"></i><p class="md-h3-responsive">React</p> </div>
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fab fa-github fa-6x mb-2"></i><p class="md-h3-responsive">GitHub</p></div>
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fa fa-database fa-6x mb-2"></i><p class="md-h3-responsive">Firebase</p></div>
             </div>
-            <div class="row text-center mb-5">
-              <div class="display col-6 col-md-3 "><i class="fa fa-cogs fa-4x mb-2"></i><p>Metodologías Ágiles</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-bug fa-4x mb-2"></i><p>Perseverancia</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-universal-access fa-4x mb-2"></i><p>Adaptación</p></div>
-              <div class="display col-6 col-md-3 "><i class="fa fa-plus-circle fa-4x mb-2"></i><p>Autoaprendizaje</p></div>
+            <div class="row text-center mb-5 slideanim">
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fa fa-cogs fa-6x mb-2"></i><p class="md-h3-responsive">Metodologías Ágiles</p></div>
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fa fa-bug fa-6x mb-2"></i><p class="md-h3-responsive">Perseverancia</p></div>
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fa fa-universal-access fa-6x mb-2"></i><p class="md-h3-responsive">Adaptación</p></div>
+              <div class="display yellowtxt col-6 col-md-3 "><i class="fa fa-plus-circle fa-6x mb-2"></i><p class="md-h3-responsive">Autoaprendizaje</p></div>
           </div>
+        </div>
         </section>
-
-        <!--Proyectos-->
-        <section id="proyectos">
-        <h2 class="h1-responsive font-weight-bold text-center my-5">Proyectos</h2>        
+        
+        <!--Proyectos -->
+            <section  class="section-four" id="proyects" >
+          <div class="container" >
+        <h2 class="font-weight-bold text-center text-big font-uica">Proyectos</h2>        
         
         <!-- Proyecto 1 -->
-        <div class="row align-items-center">
+        <div class="row align-items-center mt-5">
           <div class="col-lg-7">
               <h6 class="font-weight-bold mb-3 text-success"><i class="fa fa-cart-plus pr-2"></i>PWA</h6>
             </a>
             <!-- Título -->
-            <h3 class="font-weight-bold mb-3 yellow-text"><strong>Burger Queen</strong></h3>
+            <h3 class="font-weight-bold mb-3 yellowtxt"><strong>Burger Queen</strong></h3>
             <!-- Descripción -->
             <p>Los establecimientos de comida rápida buscan eficientar sus tiempos. Gracias a esta aplicación se facilita la toma de pedidos y el envío al área de cocina.</p>
             <p>Tecnologías  empleadas: React, Firebase y MDB.</p>
@@ -116,8 +122,8 @@
             <a class="btn btn-success btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/cdmx-2018-06-bc-core-am-burger-queen/" target="_blank"><i class="far fa-eye left"></i> Ver</a>
           </div>
           <div class="col-lg-5">
-            <div class="view overlay rounded z-depth-2">
-              <img class="img-fluid" src="./images/BurgerQueen.jpg" alt="Imagen Burger Queen">
+            <div class="view overlay rounded z-depth-2 ">
+              <img class="img-fluid align-right slideanim" src="./images/BurgerQueen.jpg" alt="Imagen Burger Queen">
               <a>
                 <div class="mask rgba-white-slight"></div>
               </a>
@@ -131,7 +137,7 @@
             <div class="col-lg-7">
                 <h6 class="font-weight-bold mb-3 light-blue-text"><i class="fa fa-deaf pr-2"></i>Red Social</h6>
                 <!-- Título -->
-                <h4 class="font-weight-bold mb-3 yellow-text"><strong>Deafriend</strong></h4>
+                <h4 class="font-weight-bold mb-3 yellowtxt"><strong>Deafriend</strong></h4>
                 <!-- Descripción -->
                 <p>Dirigida a personas con discapacidad auditiva, esta red les permitirá fortalecer su comunidad y su aprendizaje.</p>
                 <p>Tecnologías  empleadas: React, Firebase y Reactstrap</p>
@@ -140,12 +146,12 @@
                 <p>Octubre, 2018</p>
                 <!-- Botones -->
                 <a class="btn btn-blue btn-md mb-lg-0 mb-4" href="https://github.com/AngieMonroe/cdmx-social-network-frameworks/" target="_blank"><i class="fab fa-github"></i> Código</a>
-                <a class="btn btn-blue btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/cdmx-social-network-frameworks/" target="_blank"><i class="far fa-eye left"></i> Ver</a>
+                <a class="btn btn-blue btn-md mb-lg-0 mb-4" href="https://angiemonroe.github.io/cdmx-social-network-frameworks/" target="_blank"><i class="far fa-eye left"></i> Ver</a> 
               </div>
 
           <div class="col-lg-5 order-lg-first">
             <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4 ">
-              <img class="img-fluid" src="./images/Deafriend.jpg" alt="Imagen red social Deafriend">
+              <img class="img-fluid slideanim" src="./images/Deafriend.jpg" alt="Imagen red social Deafriend">
               <a>
                 <div class="mask rgba-white-slight"></div>
               </a>
@@ -161,7 +167,7 @@
               <h6 class="font-weight-bold mb-3 amber-text"><i class="fa fa-street-view pr-2"></i>WebApp</h6>
             </a>
             <!-- Título -->
-            <h3 class="font-weight-bold mb-3 yellow-text"><strong>LabCar</strong></h3>
+            <h3 class="font-weight-bold mb-3 yellowtxt"><strong>LabCar</strong></h3>
             <!-- Descripción -->
             <p>Por medio de labCar puedes conseguir un taxi que te llevará a tu destino o bien puedes ser parte de la comunidad ofreciendo tus servicios de transportación.</p>
             <p>Tecnologías  empleadas: Javascript Vanilla y Bootstrap.</p>
@@ -174,7 +180,7 @@
           </div>
           <div class="col-lg-5">
             <div class="view overlay rounded z-depth-2">
-              <img class="img-fluid" src="./images/LabCar.jpg" alt="Imagen LabCar">
+              <img class="img-fluid slideanim" src="./images/LabCar.jpg" alt="Imagen LabCar">
               <a>
                 <div class="mask rgba-white-slight"></div>
               </a>
@@ -188,7 +194,7 @@
           <div class="col-lg-7">
             <h6 class="font-weight-bold mb-3 pink-text"><i class="fa fa-map pr-2"></i>WebApp</h6>
             <!-- Título -->
-            <h3 class="font-weight-bold mb-3 yellow-text"><strong>A comerrr!</strong></h3>
+            <h3 class="font-weight-bold mb-3 yellowtxt"><strong>A comerrr!</strong></h3>
             <!-- Descripción -->
             <p>Llega la hora de comer y no sabes a donde ir. Con A comerrr! encuentra un lugar cercano a tu ubicación.</p>
             <p>Tecnologías empleadas: Javascript Vanilla, API-Google y Bootstrap. </p>
@@ -201,59 +207,82 @@
           </div>
         <div class="col-lg-5 order-lg-first">
           <div class="view overlay rounded z-depth-2 mb-lg-0 mb-4">
-          <img class="img-fluid" src="./images/Foodmap.jpg" alt="Imagen a comer">
+          <img class="img-fluid slideanim" src="./images/Foodmap.jpg" alt="Imagen a comer">
           <a><div class="mask rgba-white-slight"></div></a>
           </div>
         </div>
       </div>
         <hr class="my-3">
+      </div>
       </section>
 
-        <!--CV-->
-        <section id="cv" class="text-center mb-5">
-          <h2 class="h1-responsive font-weight-bold my-5">Descarga CV</h2>
-          <a class="btn btn-yellow" href="images/CV AngieMonroy.pdf" download="CV AngieMonroy">
-            Descargar Archivo
-            </a>
-        </section>
-      </section>
-
-      <!-- Footer -->
-      <footer id="contacto" class="page-footer font-small elegant-color darken-3">
-          <div class="container-fluid">
-            <div class="row text-center">
-              <div class="col-md-12 py-5">
-                      <h5>Ahora es tiempo de <h2 class="h1-responsive font-weight-bold">Contactarme</h2></h5>
-                <div class="mb-5 flex-center">
-                  <a class="li-ic" href="mailto:ame.monroy@gmail.com">
-                    <i class="fas fa-envelope fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
-                  </a>
+       <!--Contacto -->
+       <section id="contact" class="section-six">
+          <div class="container text-center padding-top-contact slideanim images-back">
+            <div class="row d-inline-block  ">
+              <p class="font-size text-md font-uica">¡Dime que necesitas, y juntos encontraremos la solución!</p>
+              <p class="font-uica text-big shadowtxt">Contáctame</p>
+            </div>
+            <div class="col-12 d-inline-block mt-4 md-mt-5">
+                <a class="btn-cv" href="images/CV AngieMonroy.pdf" download="CV AngieMonroy">
+                Descargar CV</a>
+              </div> 
+            <div class="row flex-center margin-top">
+              <div class="col-12  py-5 mt-5">
+                <div class="mb-2 flex-center">
+                  <a class="gplus-ic" href="mailto:ame.monroy@gmail.com">
+                    <i class="fas fa-envelope fa-lg md-fa-6x fa-4x yellowtxt mr-5 shadowtxt"> </i>
+                  </a> 
+                  <!--Linkedin  -->
                   <a class="li-ic" href="https://www.linkedin.com/in/angiemonroe" target="_blank">
-                    <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
-                  </a>
-                  <a class="li-ic" href="https://github.com/AngieMonroe" target="_blank">
-                    <i class="fab fa-github fa-lg white-text  fa-2x"> </i>
+                    <i class="fab fa-linkedin-in fa-lg md-fa-6x fa-4x yellowtxt mr-5 shadowtxt"> </i>
+                  </a> 
+                  <!--Github -->
+                  <a class="pin-ic" href="https://github.com/AngieMonroe" target="_blank">
+                    <i class="fab fa-github-alt fa-lg md-fa-6x fa-4x yellowtxt shadowtxt"> </i>
                   </a>
                 </div>
-              </div>    
+              </div>
             </div>
           </div>
-      </div>
-          <div class="footer-copyright text-center py-3 mt-3">
-                  <i class="fas fa-pencil-alt">&nbsp;&nbsp;&nbsp;</i>
-                  <i class="fas fa-plus yellow-text">&nbsp;&nbsp;&nbsp;</i>
-                  <i class="fas fa-laptop">&nbsp;&nbsp;&nbsp;</i>
-                  <i class="fas fa-plus yellow-text">&nbsp;&nbsp;&nbsp;</i>
-                  <i class="fas fa-music">&nbsp;&nbsp;&nbsp;</i>
-                  <i class="fas fa-equals yellow-text">&nbsp;&nbsp;&nbsp;</i>
-                  <i class="fas fa-code"></i>
-          </div>
-        </footer>
+        </section>
+      
 
+<!-- Footer -->
+<footer class="page-footer font-small special-color-dark darken-3">
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">Desarrollado por Angie Monroy 
+        <div class="mt-2">
+          <i class="fas fa-pencil-alt">&nbsp;&nbsp;&nbsp;</i>
+          <i class="fas fa-plus yellowtxt">&nbsp;&nbsp;&nbsp;</i>
+          <i class="fas fa-laptop">&nbsp;&nbsp;&nbsp;</i>
+          <i class="fas fa-plus yellowtxt">&nbsp;&nbsp;&nbsp;</i>
+          <i class="fas fa-music">&nbsp;&nbsp;&nbsp;</i>
+          <i class="fas fa-equals yellowtxt">&nbsp;&nbsp;&nbsp;</i>
+          <i class="fas fa-code"></i>
+          </div>
+      </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+
+
+
+        <script src="src/app.js"></script>
         <script src="src/mdb.min.js"></script>
-        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
-        <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
-        <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+        <script src="src/float-panel.js"></script>
+        <!-- JQuery -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.6.1/js/mdb.min.js"></script>
+        
+
 </body>
 </html>
