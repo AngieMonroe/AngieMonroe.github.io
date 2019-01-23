@@ -177,12 +177,12 @@ h1{
 }
 
 @media (min-width: 320px){
-    .margin-top{
-        margin-top: -3rem;
-    }
     .text-big-one{
         font-size: 3.5rem;
     }
+    .btn-cv{
+        font-size: 1.2rem;
+      }
 
 }
 @media (min-width: 374px){
